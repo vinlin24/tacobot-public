@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.code-workspace
+.*venv/
+/files/**
+!/files/words.txt
+/names.py
+
+# Comment these for GitHub push
+# Uncomment these for Heroku push
+
+# !.env
+# !metadata.json
+# !/names.py
