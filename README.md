@@ -8,7 +8,7 @@ Basic features of the bot include:
 
 - Streaming audio from YouTube with the [youtube-dl](https://github.com/ytdl-org/youtube-dl) library.
 - Managing the audio queue with commands and embed responses heavily inspired by the discontinued [Groovy bot](https://groovy.bot/). In fact, this project started in part as a way to have multiple music bots in my friend's server at once, so I attempted to reverse-engineer Groovy's behavior.
-- Saving, loading, and viewing playlist as saved queues, although implementation was quite primitive and functionality quite limited as it was the first time I used 3rd party object storage, namely AWS S3.
+- Saving, loading, and viewing playlists as saved queues, although implementation was quite primitive and functionality quite limited as it was the first time I used 3rd party object storage, namely AWS S3.
 - Various tools that assisted me personally in my school life, such as Python `eval` and REPL commands (which I know now are a security hazard without proper sanitization), pulling up data from [PubChem](https://pubchem.ncbi.nlm.nih.gov/), currency conversions, etc.
 - Some commands related to the [Mudae bot](https://discord.bots.gg/bots/432610292342587392), which some of my friends and I were obsessed with at the time. Not sure if these features even work anymore.
 - Easter egg features like making the bot `annoy` a user by replying to everything they say, reciting the [Tragedy of Darth Plagueis the Wise](https://knowyourmeme.com/memes/the-tragedy-of-darth-plagueis-the-wise), etc.
@@ -76,11 +76,11 @@ Dependencies are tracked with [requirements.txt](requirements.txt). I just recen
 
 ```powershell
 python -m venv .venv
-.venv/Scripts/Activate.ps1
+.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-The link to my Heroku app (only accessibly to me, obviously) is:
+The link to my Heroku app (only accessible to me, obviously) is:
 
 https://dashboard.heroku.com/apps/tacobot-py-alt
 
